@@ -33,7 +33,7 @@ a {
     transition: transform 150ms linear;
 }
 
-a:before {
+a#menunav:before {
     content: "";
     background-color: #390040;
     width: 10px;
@@ -41,7 +41,7 @@ a:before {
     margin-right: 10px;
 }
 
-a:hover {
+a#menunav:hover {
     box-shadow: 5px 4px 0px black;
     transform:scale(1.2)
 }
