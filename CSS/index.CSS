@@ -8,20 +8,20 @@ header {
 }
 
 #homeLogo {
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.637));
     transition: transform 150ms linear;
 
 }
 
 #homeLogo:hover {
     transform: scale(1.1);
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.637));
 }
 
 nav {
     text-align: right;
 }
 
-a {
+#menunav, #buttonnav {
     display: inline-flex;
     align-items: center;
     color: #000;
@@ -46,7 +46,7 @@ a#menunav:hover {
     transform:scale(1.2)
 }
 
-#button {
+#buttonnav {
     display: inline-block;
     background-color: #B298DC;
     box-shadow: 5px 4px 0px black;
@@ -55,6 +55,48 @@ a#menunav:hover {
     transition: transform 150ms linear;
 }
 
-#button:hover {
+#buttonnav:hover {
     transform: scale(1.1);
+}
+
+div#box1 {
+    position: absolute;
+    background-color: #3A4042;
+    height: 184px;
+    width: 627px;
+    left: 91px;
+    top: 196px;
+    filter: drop-shadow(10px 10px 0px #000000);
+
+}
+
+#myname {
+    position: absolute;
+    color: #B298DC;
+    width: 440px;
+    height: 40px;
+    left: 181px;
+    top: 238px;
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    filter: drop-shadow(4px 4px 0px #000);
+
+}
+
+#jobname {
+    position: absolute;
+    color: white;
+    width: 540px;
+    height: 30px;
+    left: 131px;
+    top: 306px;
+    font-family: "Press Start 2P";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    filter: drop-shadow(4px 4px 0px #000);
 }
