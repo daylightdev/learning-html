@@ -1,3 +1,12 @@
+body {
+    background-position: absolute;
+    background-image: url(/assets/img/background.png);
+    background-repeat: no-repeat;
+    background-size: 1440px 797px;
+    background-position-x: 0px;
+    background-position-y: 80px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -21,7 +30,7 @@ nav {
     text-align: right;
 }
 
-#menunav, #buttonnav {
+#menunav, .button {
     display: inline-flex;
     align-items: center;
     color: #000;
@@ -46,8 +55,11 @@ a#menunav:hover {
     transform:scale(1.2)
 }
 
-#buttonnav {
+#buttonnav{
     display: inline-block;
+}
+
+.button {
     background-color: #B298DC;
     box-shadow: 5px 4px 0px black;
     padding: 18px 20px;
@@ -55,13 +67,13 @@ a#menunav:hover {
     transition: transform 150ms linear;
 }
 
-#buttonnav:hover {
+.button:hover {
     transform: scale(1.1);
 }
 
-div#box1 {
+.box {
     position: absolute;
-    background-color: #3A4042;
+    background-color: #171717;
     height: 184px;
     width: 627px;
     left: 91px;
@@ -70,7 +82,9 @@ div#box1 {
 
 }
 
-#myname {
+
+
+/*.myname {
     position: absolute;
     color: #B298DC;
     width: 440px;
@@ -80,13 +94,12 @@ div#box1 {
     font-family: "Press Start 2P";
     font-style: normal;
     font-weight: normal;
-    font-size: 27px;
+    font-size: 40px;
     line-height: 40px;
     filter: drop-shadow(4px 4px 0px #000);
+}*/
 
-}
-
-#jobname {
+.jobname {
     position: absolute;
     color: white;
     width: 540px;
@@ -99,4 +112,16 @@ div#box1 {
     font-size: 30px;
     line-height: 30px;
     filter: drop-shadow(4px 4px 0px #000);
+}
+
+#downloadcv {
+    position: absolute;
+    top: 418px;
+    left: 181px;
+}
+
+#contatos {
+    position: absolute;
+    top: 418px;
+    left: 463px;
 }
