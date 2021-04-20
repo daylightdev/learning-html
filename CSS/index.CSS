@@ -1,11 +1,11 @@
-body {
+/*body {
     background-position: absolute;
     background-image: url(/assets/img/background.png);
     background-repeat: no-repeat;
     background-size: 1440px 797px;
     background-position-x: 0px;
     background-position-y: 80px;
-}
+}*/
 
 header {
     display: flex;
@@ -17,7 +17,7 @@ header {
 }
 
 #homeLogo {
-    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.637));
+    filter: drop-shadow(2px 2px 0 rgba(0, 0, 0, 0.637));
     transition: transform 150ms linear;
 
 }
@@ -30,7 +30,7 @@ nav {
     text-align: right;
 }
 
-#menunav, .button {
+a, #button {
     display: inline-flex;
     align-items: center;
     color: #000;
@@ -42,7 +42,7 @@ nav {
     transition: transform 150ms linear;
 }
 
-a#menunav:before {
+#menunav:before {
     content: "";
     background-color: #390040;
     width: 10px;
@@ -50,16 +50,13 @@ a#menunav:before {
     margin-right: 10px;
 }
 
-a#menunav:hover {
+#menunav:hover {
     box-shadow: 5px 4px 0px black;
     transform:scale(1.2)
 }
 
-#buttonnav{
+#button{
     display: inline-block;
-}
-
-.button {
     background-color: #B298DC;
     box-shadow: 5px 4px 0px black;
     padding: 18px 20px;
@@ -67,61 +64,6 @@ a#menunav:hover {
     transition: transform 150ms linear;
 }
 
-.button:hover {
+#button:hover {
     transform: scale(1.1);
-}
-
-.box {
-    position: absolute;
-    background-color: #171717;
-    height: 184px;
-    width: 627px;
-    left: 91px;
-    top: 196px;
-    filter: drop-shadow(10px 10px 0px #000000);
-
-}
-
-
-
-/*.myname {
-    position: absolute;
-    color: #B298DC;
-    width: 440px;
-    height: 40px;
-    left: 181px;
-    top: 238px;
-    font-family: "Press Start 2P";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 40px;
-    filter: drop-shadow(4px 4px 0px #000);
-}*/
-
-.jobname {
-    position: absolute;
-    color: white;
-    width: 540px;
-    height: 30px;
-    left: 131px;
-    top: 306px;
-    font-family: "Press Start 2P";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 30px;
-    filter: drop-shadow(4px 4px 0px #000);
-}
-
-#downloadcv {
-    position: absolute;
-    top: 418px;
-    left: 181px;
-}
-
-#contatos {
-    position: absolute;
-    top: 418px;
-    left: 463px;
 }
