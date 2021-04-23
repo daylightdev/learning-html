@@ -4,7 +4,7 @@
     color: #000;
     font-size: 20px;
     font-weight: 500;
-    text-decoration: none;  
+    text-decoration: none;
     margin-right: 30px;
     transition: transform 150ms linear;
 }
@@ -19,5 +19,5 @@
 
 .action:hover {
     box-shadow: 5px 4px 0px black;
-    transform:scale(1.2)
+    transform: scale(1.2)
 }
