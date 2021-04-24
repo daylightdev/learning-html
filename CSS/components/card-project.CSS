@@ -1,8 +1,22 @@
-.projects {
+#card-project {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.projects .project {
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff000;
+    width: 280px;
+    height: 280px;
     box-shadow: 10px 10px 0 #fff;
+}
+
+.card-project.-wisteria {
+    background-color: #b298dc;
+}
+
+.card-project.-bgimg {
+    background-image: url(../../img/bgimg_x280.png);
 }
