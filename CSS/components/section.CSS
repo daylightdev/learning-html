@@ -9,7 +9,10 @@
     margin-bottom: 60px;
 }
 
-.section.-projects {
+.section.-bgblack {
     background-color: #000;
-    border-bottom: 10px solid #B298DC;
+}
+
+.section.-bdprojects {
+    border-color: #B298DC;
 }
