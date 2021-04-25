@@ -11,6 +11,7 @@
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 0 #fff;
+    transition: transform 100ms linear;
 }
 
 .card-project.-wisteria {
@@ -19,4 +20,8 @@
 
 .card-project.-bgimg {
     background-image: url(../../img/bgimg_x280.png);
+}
+
+.card-project:hover {
+    transform: scale(1.1);
 }
