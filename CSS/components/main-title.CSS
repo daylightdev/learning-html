@@ -6,16 +6,23 @@
     margin-bottom: 60px;
 }
 
-.main-title.-second {
+.main-title.-first {
     color: #fff;
     text-shadow: none;
     text-align: center;
     text-shadow: 2px 3px 0 #000;
 }
 
-.main-title.-third {
+.main-title.-second {
     color: #fff;
     text-shadow: none;
     text-align: center;
     text-shadow: 2px 3px 0 #390040;
+}
+
+.main-title.-third {
+    color: #fff;
+    text-shadow: none;
+    text-align: center;
+    text-shadow: 3px 3px 0 #000;
 }
