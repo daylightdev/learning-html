@@ -23,7 +23,7 @@
     left: 0;
     top: 39px;
     display: block;
-    border: 2.5px dashed #000;
+    border-top: 5px dashed #000;
     width: 100%;
 }
 
